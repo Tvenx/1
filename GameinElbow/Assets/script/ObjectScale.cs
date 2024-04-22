@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class ObjectScale : MonoBehaviour
 {
-    [SerializeField] private float growthRate = 0.1f;
+    [SerializeField] private float _growthRate = 0.1f;
 
     private void Update()
     {
-        Vector3 scaleChange = Vector3.one * growthRate * Time.deltaTime;
+        Vector3 scaleChange = Vector3.one * _growthRate * Time.deltaTime;
         transform.localScale += scaleChange;
     }
 }
