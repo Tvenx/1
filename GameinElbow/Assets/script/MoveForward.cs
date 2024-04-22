@@ -6,7 +6,7 @@ public class MoveForward : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
 
-    void Update()
+    private void Update()
     {
         Vector3 moveDirection = transform.forward;
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
