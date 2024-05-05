@@ -12,3 +12,4 @@ public class ObjectScale : MonoBehaviour
         transform.localScale += scaleChange;
     }
 }
+//hqiufiuhegw
